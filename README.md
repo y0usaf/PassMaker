@@ -7,7 +7,7 @@ This is a simple bash script that generates a random password with customizable 
 To use this script, simply run it from the command line:
 
 
-```./generate_password.sh```
+    ./generate_password.sh
 
 By default, the script generates a 16-character password with lowercase letters only. However, you can customize the password generation using the following command line options:
 
