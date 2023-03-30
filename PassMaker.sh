@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Generate a random password with the given length and options
-# Usage: ./generate_password.sh [-l length] [-s] [-n] [-c] [-h]
+# Usage: ./PassMaker.sh [-l length] [-s] [-n] [-c] [-h]
 
 # Default values for password options
 length=16
@@ -25,7 +25,7 @@ while getopts "l:snch" opt; do
       include_capitals=true
       ;;
     h)
-      echo "Usage: ./generate_password.sh [-l length] [-s] [-n] [-c] [-h]"
+      echo "Usage: ./PassMaker.sh [-l length] [-s] [-n] [-c] [-h]"
       echo "  -l: Specify length of password (default: 16)"
       echo "  -s: Include special characters in password"
       echo "  -n: Include numbers in password"
